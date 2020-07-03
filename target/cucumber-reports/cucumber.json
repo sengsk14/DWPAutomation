@@ -1,0 +1,616 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verify users in different cities using GET request",
+        "description": "",
+        "id": "bpdts-cities-api-test;verify-users-in-different-cities-using-get-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 110970677,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request with different cities",
+            "match": {
+              "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10577766559,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users in the respective \"London\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 25
+                }
+              ],
+              "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify users in different cities using GET request",
+        "description": "",
+        "id": "bpdts-cities-api-test;verify-users-in-different-cities-using-get-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 296076,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request with different cities",
+            "match": {
+              "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118281956,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users in the respective \"Kax\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kax",
+                  "offset": 25
+                }
+              ],
+              "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify users in different cities using GET request",
+        "description": "",
+        "id": "bpdts-cities-api-test;verify-users-in-different-cities-using-get-request;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 401108,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request with different cities",
+            "match": {
+              "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57276302,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users in the respective \"Tonekābon\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tonekābon",
+                  "offset": 25
+                }
+              ],
+              "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify users in different cities using GET request",
+        "description": "",
+        "id": "bpdts-cities-api-test;verify-users-in-different-cities-using-get-request;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 435831,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request with different cities",
+            "match": {
+              "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62119412,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users in the respective \"Ban Chang\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ban Chang",
+                  "offset": 25
+                }
+              ],
+              "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify users in different cities using GET request",
+        "description": "",
+        "id": "bpdts-cities-api-test;verify-users-in-different-cities-using-get-request;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 260038,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request with different cities",
+            "match": {
+              "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47546923,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users in the respective \"Zhaizigou\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Zhaizigou",
+                  "offset": 25
+                }
+              ],
+              "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verify users in different cities using GET request",
+        "description": "",
+        "id": "bpdts-cities-api-test;verify-users-in-different-cities-using-get-request;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 257945,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request with different cities",
+            "match": {
+              "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50332991,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users in the respective \"Leeds\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Leeds",
+                  "offset": 25
+                }
+              ],
+              "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "BPDTS Cities API test",
+    "description": "\nDescription: Verification of BPDTS API level Cities tests",
+    "id": "bpdts-cities-api-test",
+    "keyword": "Feature",
+    "uri": "CitiesTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify entire Users using GET request",
+        "description": "",
+        "id": "bpdts-users-api-test;verify-entire-users-using-get-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123043247,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer send GET request for all \"users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 35
+                }
+              ],
+              "location": "BpdtsUsersTest.customerSendGETRequestForAll(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82027951,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "entire list of \"users\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 16
+                }
+              ],
+              "location": "BpdtsUsersTest.entireListOfDisplayedInTheResult(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Verify instructions using GET request",
+        "description": "",
+        "id": "bpdts-users-api-test;verify-instructions-using-get-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53341821,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "candidate send GET request for \"instructions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "instructions",
+                  "offset": 32
+                }
+              ],
+              "location": "BpdtsUsersTest.candidateSendGETRequestFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61512066,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the \"instructions\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "instructions",
+                  "offset": 5
+                }
+              ],
+              "location": "BpdtsUsersTest.the_displayed_in_the_result(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify different Users using GET request",
+        "description": "",
+        "id": "bpdts-users-api-test;verify-different-users-using-get-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 308041,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "customer send GET request with different users",
+            "match": {
+              "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54720544,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "respective \"1\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                }
+              ],
+              "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify different Users using GET request",
+        "description": "",
+        "id": "bpdts-users-api-test;verify-different-users-using-get-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 292357,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "customer send GET request with different users",
+            "match": {
+              "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49128948,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "respective \"500\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 12
+                }
+              ],
+              "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify different Users using GET request",
+        "description": "",
+        "id": "bpdts-users-api-test;verify-different-users-using-get-request;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266937,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "customer send GET request with different users",
+            "match": {
+              "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47938599,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "respective \"1000\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 12
+                }
+              ],
+              "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verify different Users using GET request",
+        "description": "",
+        "id": "bpdts-users-api-test;verify-different-users-using-get-request;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 351089,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "customer send GET request with different users",
+            "match": {
+              "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52558861,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "respective \"0\" displayed in the result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 12
+                }
+              ],
+              "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "BPDTS Users API test",
+    "description": "\nDescription: Verification of BPDTS API level Users tests",
+    "id": "bpdts-users-api-test",
+    "keyword": "Feature",
+    "uri": "UsersTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]

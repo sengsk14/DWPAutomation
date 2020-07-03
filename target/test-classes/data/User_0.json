@@ -1,0 +1,3 @@
+{
+  "message": "Id 0 doesn't exist. You have requested this URI [/user/0] but did you mean /user/<string:id> or /users ?"
+}
