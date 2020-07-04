@@ -22,8 +22,6 @@ public class BpdtsUsersTest extends BaseTest{
 
         System.out.println("User Id : "+arg1);
         System.out.println("Base URI : "+rp.baseURI);
-        //response = cf.getRequestUser(rp.baseURI,"/user/"+arg1);
-        //cf.verifyResponse(response,"User_"+arg1,"");
         response = cf.getRequestUser(rp.baseURI,"/user/"+arg1,"User_"+arg1);
         cf.verifyResponse(response,"User_"+arg1,"");
 

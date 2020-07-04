@@ -15,7 +15,7 @@ Two features to test all GET methods
 CitiesTest.feature:
 1. Tested with different valid cities results and invalid city
 
-*UsersTest.feature:
+UsersTest.feature:
 1. Tested with different valid users results and invalid user
 2. Tested entire user list
 3. Tested instructions call
