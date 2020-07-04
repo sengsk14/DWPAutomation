@@ -9,13 +9,11 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.testng.Assert;
 
 import java.io.FileReader;
-import java.util.Map;
-
 
 import static net.javacrumbs.jsonunit.JsonAssert.assertJsonEquals;
 import static net.javacrumbs.jsonunit.JsonAssert.when;
@@ -27,9 +25,11 @@ import static org.testng.Assert.assertEquals;
  */
 public class CoreFunctions {
 
-    String responseBody;
+    String responseBody, nameRs, firstName;
     JsonArray responseJsonArr;
     JSONObject responseJsonObj;
+    JsonPath jsonPathEvaluator;
+    int idRs; long id;
 
     public String getRequestUser(String baseUri,String param) throws Exception {
 
@@ -42,6 +42,45 @@ public class CoreFunctions {
         responseBody = getResponse.getBody().asString();
 
         System.out.println("Get Body Response: "+responseBody);
+
+        verifyStatusCode(getResponse.getStatusCode(), param);
+
+        verifyContentType(getResponse.header("Content-Type"));
+
+        verifyConnection(getResponse.header("connection"));
+
+        return responseBody;
+
+    }
+
+    public String getRequestUser(String baseUri,String param,String filename) throws Exception {
+
+        RestAssured.baseURI = baseUri;
+
+        RequestSpecification testGetRequest = RestAssured.given();
+
+        Response getResponse = testGetRequest.request(Method.GET, param);
+
+        responseBody = getResponse.getBody().asString();
+
+        System.out.println("Get Body Response: "+responseBody);
+
+        jsonPathEvaluator = getResponse.jsonPath();
+
+        JSONObject jsonObject = readJsonObjFile(filename);
+
+        if(jsonPathEvaluator.get("id") != null){
+            idRs = jsonPathEvaluator.get("id");
+            nameRs = jsonPathEvaluator.get("first_name");
+            id = (long) jsonObject.get("id");
+            firstName = (String) jsonObject.get("first_name");
+            Assert.assertEquals(idRs,id);
+            Assert.assertEquals(nameRs,firstName);
+        }
+
+        JSONParser parser = new JSONParser();
+        responseJsonObj = (JSONObject) parser.parse(responseBody);
+        compareOutput(readJsonObjFile(filename), responseJsonObj);
 
         verifyStatusCode(getResponse.getStatusCode(), param);
 

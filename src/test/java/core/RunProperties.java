@@ -11,9 +11,6 @@ public class RunProperties {
     private static String PROP_FILE	= "";
     private static RunProperties runprop;
     public static String baseURI;
-    public static String userContentLength;
-    public static String cityContentLength;
-    public static String user0ContentLength;
     public static String users;
     public static String city;
     private static String OS = System.getProperty("os.name").toLowerCase();
@@ -31,9 +28,6 @@ public class RunProperties {
             prop.load(is);
 
             RunProperties.baseURI = prop.getProperty("baseURI");
-            RunProperties.userContentLength = prop.getProperty("userContentLength");
-            RunProperties.cityContentLength = prop.getProperty("cityContentLength");
-            RunProperties.user0ContentLength = prop.getProperty("user0ContentLength");
             RunProperties.users = prop.getProperty("users");
             RunProperties.city = prop.getProperty("city");
 

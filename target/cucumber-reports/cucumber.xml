@@ -1,60 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="11.551436">
-<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request" time="10.688737">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="2.909047">
+<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request" time="1.608108">
 <system-out><![CDATA[When customer send GET request with different cities........................passed
 Then users in the respective "London" displayed in the result...............passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 2" time="0.118578">
+<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 2" time="0.062987">
 <system-out><![CDATA[When customer send GET request with different cities........................passed
 Then users in the respective "Kax" displayed in the result..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 3" time="0.057677">
+<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 3" time="0.06672">
 <system-out><![CDATA[When customer send GET request with different cities........................passed
 Then users in the respective "Tonekābon" displayed in the result............passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 4" time="0.062555">
+<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 4" time="0.058544">
 <system-out><![CDATA[When customer send GET request with different cities........................passed
 Then users in the respective "Ban Chang" displayed in the result............passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 5" time="0.047807">
+<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 5" time="0.051104">
 <system-out><![CDATA[When customer send GET request with different cities........................passed
 Then users in the respective "Zhaizigou" displayed in the result............passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 6" time="0.050591">
+<testcase classname="BPDTS Cities API test" name="Verify users in different cities using GET request 6" time="0.056604">
 <system-out><![CDATA[When customer send GET request with different cities........................passed
 Then users in the respective "Leeds" displayed in the result................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Users API test" name="Verify entire Users using GET request" time="0.205071">
+<testcase classname="BPDTS Users API test" name="Verify entire Users using GET request" time="0.198808">
 <system-out><![CDATA[When customer send GET request for all "users"..............................passed
 Then entire list of "users" displayed in the result.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Users API test" name="Verify instructions using GET request" time="0.114854">
+<testcase classname="BPDTS Users API test" name="Verify instructions using GET request" time="0.111067">
 <system-out><![CDATA[When candidate send GET request for "instructions"..........................passed
 Then the "instructions" displayed in the result.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Users API test" name="Verify different Users using GET request" time="0.055029">
+<testcase classname="BPDTS Users API test" name="Verify different Users using GET request" time="0.444567">
 <system-out><![CDATA[When customer send GET request with different users.........................passed
 Then respective "1" displayed in the result.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Users API test" name="Verify different Users using GET request 2" time="0.049421">
+<testcase classname="BPDTS Users API test" name="Verify different Users using GET request 2" time="0.090564">
 <system-out><![CDATA[When customer send GET request with different users.........................passed
 Then respective "500" displayed in the result...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Users API test" name="Verify different Users using GET request 3" time="0.048206">
+<testcase classname="BPDTS Users API test" name="Verify different Users using GET request 3" time="0.095607">
 <system-out><![CDATA[When customer send GET request with different users.........................passed
 Then respective "1000" displayed in the result..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="BPDTS Users API test" name="Verify different Users using GET request 4" time="0.05291">
+<testcase classname="BPDTS Users API test" name="Verify different Users using GET request 4" time="0.064367">
 <system-out><![CDATA[When customer send GET request with different users.........................passed
 Then respective "0" displayed in the result.................................passed
 ]]></system-out>

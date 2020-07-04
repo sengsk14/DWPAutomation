@@ -119,7 +119,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
 });
 formatter.result({
-  "duration": 110970677,
+  "duration": 137882525,
   "status": "passed"
 });
 formatter.match({
@@ -132,7 +132,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 10577766559,
+  "duration": 1470225812,
   "status": "passed"
 });
 formatter.scenario({
@@ -166,7 +166,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
 });
 formatter.result({
-  "duration": 296076,
+  "duration": 497036,
   "status": "passed"
 });
 formatter.match({
@@ -179,7 +179,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 118281956,
+  "duration": 62489646,
   "status": "passed"
 });
 formatter.scenario({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
 });
 formatter.result({
-  "duration": 401108,
+  "duration": 559354,
   "status": "passed"
 });
 formatter.match({
@@ -226,7 +226,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 57276302,
+  "duration": 66160580,
   "status": "passed"
 });
 formatter.scenario({
@@ -260,7 +260,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
 });
 formatter.result({
-  "duration": 435831,
+  "duration": 394143,
   "status": "passed"
 });
 formatter.match({
@@ -273,7 +273,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 62119412,
+  "duration": 58150167,
   "status": "passed"
 });
 formatter.scenario({
@@ -307,7 +307,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
 });
 formatter.result({
-  "duration": 260038,
+  "duration": 299857,
   "status": "passed"
 });
 formatter.match({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 47546923,
+  "duration": 50804134,
   "status": "passed"
 });
 formatter.scenario({
@@ -354,7 +354,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.customer_send_GET_request_with_different_cities()"
 });
 formatter.result({
-  "duration": 257945,
+  "duration": 333495,
   "status": "passed"
 });
 formatter.match({
@@ -367,7 +367,7 @@ formatter.match({
   "location": "BpdtsCitiesTest.users_in_the_respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 50332991,
+  "duration": 56270649,
   "status": "passed"
 });
 formatter.uri("UsersTest.feature");
@@ -412,7 +412,7 @@ formatter.match({
   "location": "BpdtsUsersTest.customerSendGETRequestForAll(String)"
 });
 formatter.result({
-  "duration": 123043247,
+  "duration": 121220908,
   "status": "passed"
 });
 formatter.match({
@@ -425,7 +425,7 @@ formatter.match({
   "location": "BpdtsUsersTest.entireListOfDisplayedInTheResult(String)"
 });
 formatter.result({
-  "duration": 82027951,
+  "duration": 77586807,
   "status": "passed"
 });
 formatter.scenario({
@@ -456,7 +456,7 @@ formatter.match({
   "location": "BpdtsUsersTest.candidateSendGETRequestFor(String)"
 });
 formatter.result({
-  "duration": 53341821,
+  "duration": 51934501,
   "status": "passed"
 });
 formatter.match({
@@ -469,7 +469,7 @@ formatter.match({
   "location": "BpdtsUsersTest.the_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 61512066,
+  "duration": 59132419,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -565,7 +565,7 @@ formatter.match({
   "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
 });
 formatter.result({
-  "duration": 308041,
+  "duration": 349331,
   "status": "passed"
 });
 formatter.match({
@@ -578,7 +578,7 @@ formatter.match({
   "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 54720544,
+  "duration": 444217601,
   "status": "passed"
 });
 formatter.scenario({
@@ -612,7 +612,7 @@ formatter.match({
   "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
 });
 formatter.result({
-  "duration": 292357,
+  "duration": 405204,
   "status": "passed"
 });
 formatter.match({
@@ -625,7 +625,7 @@ formatter.match({
   "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 49128948,
+  "duration": 90159253,
   "status": "passed"
 });
 formatter.scenario({
@@ -659,7 +659,7 @@ formatter.match({
   "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
 });
 formatter.result({
-  "duration": 266937,
+  "duration": 393349,
   "status": "passed"
 });
 formatter.match({
@@ -672,7 +672,7 @@ formatter.match({
   "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 47938599,
+  "duration": 95214083,
   "status": "passed"
 });
 formatter.scenario({
@@ -706,7 +706,7 @@ formatter.match({
   "location": "BpdtsUsersTest.customer_send_GET_request_with_different_users()"
 });
 formatter.result({
-  "duration": 351089,
+  "duration": 311076,
   "status": "passed"
 });
 formatter.match({
@@ -719,7 +719,7 @@ formatter.match({
   "location": "BpdtsUsersTest.respective_displayed_in_the_result(String)"
 });
 formatter.result({
-  "duration": 52558861,
+  "duration": 64055734,
   "status": "passed"
 });
 });
